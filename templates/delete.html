@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Outpass</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Delete Outpass</h1>
+            <a href="/" class="back-link">← Back to Home</a>
+        </header>
+        <main>
+            <form action="/delete" method="POST" class="form">
+                <div class="form-group">
+                    <label for="name">Enter Name to Delete:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <button type="submit" class="btn btn-danger">Delete Outpass</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html> 
