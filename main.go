@@ -1,5 +1,4 @@
 package main
-
 import (
 	"encoding/json"
 	"fmt"
@@ -130,3 +129,4 @@ func handleDelete(w http.ResponseWriter, r *http.Request) {
 	tmpl := template.Must(template.ParseFiles("templates/delete.html"))
 	tmpl.Execute(w, nil)
 }
+
